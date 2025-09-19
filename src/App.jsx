@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import { AppProvider } from "./Context/AppProvider";
+import AppProvider  from "./Context/AppProvider";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Patients from "./Pages/Patients";

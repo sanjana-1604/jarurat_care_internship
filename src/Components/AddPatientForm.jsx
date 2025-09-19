@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { AppContext } from "../Context/AppProvider";
+import { AppContext } from "../Context/AppContext";
 
 export default function AddPatientForm() {
   const { addPatient } = useContext(AppContext);

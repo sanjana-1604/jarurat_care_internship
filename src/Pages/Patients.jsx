@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { AppContext } from "../Context/AppProvider"
+import { AppContext } from "../Context/AppContext"
 import PatientCard from "../Components/PatientCard"
 import PatientModal from "../Components/PatientModal"
 import AddPatientForm from "../Components/AddPatientForm"

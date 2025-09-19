@@ -2,7 +2,7 @@
 import { Link } from "react-router"
 import { FaMoon, FaSun, FaUserInjured } from "react-icons/fa"
 import { MdHome, MdInfo } from "react-icons/md"
-import { AppContext } from "../Context/AppProvider"
+import { AppContext } from "../Context/AppContext"
 
 export default function Navbar() {
  // const { darkMode, setDarkMode } = useContext(AppContext);

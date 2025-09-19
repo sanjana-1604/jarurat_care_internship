@@ -10,7 +10,7 @@ A modern **patient records dashboard** built with **React + Tailwind CSS**, feat
 ---
 
 ## 📸 Preview  
-![Jarurat Care Preview](./screenshot.png)  
+![Jarurat Care Preview](./public/Screenshot.png)  
 *(Replace with an actual screenshot of your running app)*  
 
 ---
@@ -46,7 +46,9 @@ src/
 │── App.jsx           # Main app with routing
 │── index.css         # Tailwind + custom colors
 │── index.js          # Entry point
-🚀 Getting Started
+
+---
+## 🚀 Getting Started
 1️⃣ Clone the repo
 git clone https://github.com/your-username/jarurat-care.git
 cd jarurat-care
@@ -60,7 +62,8 @@ npm start
 
 App runs on 👉 http://localhost:3000
 
-🎨 Color Palette
+---
+##🎨 Color Palette
 Color Name	Hex
 Primary	#03045e
 Secondary	#023e8a
@@ -71,10 +74,3 @@ Sky	#48cae4
 Lightblue	#90e0ef
 Softblue	#ade8f4
 Pale	#caf0f8
-🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
-📜 License
-
-MIT License © 2025 Jarurat Care Team
