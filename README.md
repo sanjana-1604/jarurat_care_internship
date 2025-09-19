@@ -1,19 +1,42 @@
-# 📋 Jarurat Care – Patient Records Dashboard  
+# 📋 Jarurat Care – Patient Records Dashboard
+
+## Description
 
 A modern **patient records dashboard** built with **React + Tailwind CSS**, featuring:  
 ✅ Responsive UI  
 ✅ Patient search & details modal  
 ✅ Add new patients (local state only)  
 ✅ Loading & error handling for API fetch  
-✅ Gradient UI design with color palette from [Coolors](https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8)  
+✅ Gradient UI design with color palette from [Coolors](https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8) 
 
----
+## Table of Contents 
+
+- [Installation](#installation)
+- [Preview](#preview)
+- [Features](#features)
+- [Tech Stack](#tech)
+
+## Installation
+
+1️⃣ Clone the repo
+git clone https://github.com/sanjana-1604/jarurat-care.git
+cd jarurat-care
+
+2️⃣ Install dependencies
+npm install
+npm i react-router
+npm install --save react-icon
+npm install tailwindcss @tailwindcss/vite
+
+3️⃣ Run the app
+npm start
+
+
+App runs on 👉 http://localhost:3000
 
 ## 📸 Preview  
 ![Jarurat Care Preview](./public/Screenshot.png)  
-*(Replace with an actual screenshot of your running app)*  
 
----
 
 ## ⚡ Features  
 - 🏥 **Landing Page** with hero section & feature highlights  
@@ -27,50 +50,9 @@ A modern **patient records dashboard** built with **React + Tailwind CSS**, feat
 - ℹ️ **About Page** with project info  
 - 🌈 **Responsive, modern UI** with gradients & Tailwind styling  
 
----
 
 ## 🛠️ Tech Stack  
 - **React** (Hooks + Context API)  
 - **Tailwind CSS** for styling  
 - **React Router** for navigation  
-- **React Icons** for UI icons  
-
----
-
-## 📂 Project Structure  
-```bash
-src/
-│── components/       # Navbar, Footer, PatientCard, PatientModal, AddPatientForm
-│── context/          # AppContext (patients state + search + modal)
-│── pages/            # Home, Patients, About
-│── App.jsx           # Main app with routing
-│── index.css         # Tailwind + custom colors
-│── index.js          # Entry point
-
----
-## 🚀 Getting Started
-1️⃣ Clone the repo
-git clone https://github.com/your-username/jarurat-care.git
-cd jarurat-care
-
-2️⃣ Install dependencies
-npm install
-
-3️⃣ Run the app
-npm start
-
-
-App runs on 👉 http://localhost:3000
-
----
-##🎨 Color Palette
-Color Name	Hex
-Primary	#03045e
-Secondary	#023e8a
-Accent	#0077b6
-Teal	#0096c7
-Info	#00b4d8
-Sky	#48cae4
-Lightblue	#90e0ef
-Softblue	#ade8f4
-Pale	#caf0f8
+- **React Icons** for UI icons
