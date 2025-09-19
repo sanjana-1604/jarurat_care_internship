@@ -12,9 +12,9 @@ A modern **patient records dashboard** built with **React + Tailwind CSS**, feat
 ## Table of Contents 
 
 - [Installation](#installation)
-- [Preview](#preview)
-- [Features](#features)
-- [Tech Stack](#tech)
+- [Preview](#-preview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
 
 ## Installation
 
